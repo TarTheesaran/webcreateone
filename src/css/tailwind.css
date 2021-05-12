@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .page-width {
+        max-width: 120rem;
+    }
+    .lineHorizontal {
+        border-bottom: 8px ;
+        width: 40%;
+      }
+  }
